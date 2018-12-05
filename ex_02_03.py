@@ -1,6 +1,4 @@
 hrs = input("enter hours:")
 rte = input("enter rate:")
-ihrs = float(hrs)
-irte = float(rte)
-pay = ihrs * irte
+pay = float(hrs) * float(rte)
 print ("your pay:", pay)
