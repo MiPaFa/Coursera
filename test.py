@@ -1,5 +1,6 @@
-n = 10
-while n>0:
-    print (n)
-    n=n-2
-print ('we zijn klaar')
+x = 5
+if x < 10:
+  print('smaller')
+if x > 20:
+  print('bigger')
+print('done')
