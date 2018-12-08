@@ -1,6 +1,7 @@
-x = 5
-if x < 10:
-  print('smaller')
-if x > 20:
-  print('bigger')
-print('done')
+def greet(lang):
+    if lang == 'es':
+        print ('Hola')
+    elif lang == 'fr':
+        print ('Bonjour')
+    else:
+        print (Hello)
