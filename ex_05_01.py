@@ -1,6 +1,5 @@
 tot = 0.0
 num = 0
-
 while True:
     sval = input('Enter a number: ')
     if sval == 'done':
