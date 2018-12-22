@@ -1,12 +1,9 @@
-
-prompt = 'geef een waarde in? '
-x = input(prompt)
-try:
-    fx = int(x)
-except:
-    print(x, 'is geen cijfer')
-    quit()
-if fx%2 == 0:
-    print (fx,'dit is een even getal')
-else:
-    print (fx,'dit is een oneven getal')
+smallest = None
+print ('Before', smallest)
+for the_num in [9,41,12,3,74,15]:
+    if smallest is None:
+        smallest = the_num
+    elif the_num < smallest:
+        smallest = the_num
+    print (smallest, the_num)
+print ('After', smallest)
